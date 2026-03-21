@@ -5,6 +5,9 @@ const port = process.env.PORT ?? 8080;
 app.get("/", (req, res) => {
   res.json({ msg: "Hello from server v1" });
 });
+app.get("/vishnu", (req, res) => {
+  res.json({ msg: "Hi vishnu" });
+});
 
 app.listen(port, () => {
   console.log("Server is running");
