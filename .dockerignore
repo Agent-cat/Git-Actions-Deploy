@@ -1,0 +1,35 @@
+# dependencies
+node_modules
+
+# bun
+.bun
+bun.lockb.tmp
+
+# logs
+*.log
+
+# env files
+.env
+.env.*
+
+# git
+.git
+.gitignore
+
+# docker
+Dockerfile
+.dockerignore
+
+# build output
+dist
+build
+.next
+out
+
+# editor files
+.vscode
+.idea
+
+# OS files
+.DS_Store
+Thumbs.db
